@@ -51,7 +51,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Float add(float baseValue, float difference) {
-        return null;
+
+        return (float) (baseValue + difference);
     }
 
     /**
@@ -60,7 +61,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Double add(double baseValue, double difference) {
-        return null;
+
+        return (double) (baseValue + difference);
     }
 
     /**
@@ -69,7 +71,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Integer subtract(int baseValue, int difference) {
-        return null;
+
+        return (baseValue - difference);
     }
 
     /**
