@@ -9,7 +9,6 @@ import static org.junit.Assert.*;
  */
 public class TestPredicateUtilities {
     private static volatile PredicateUtilities predicateUtilities = new PredicateUtilities();
-
     @Test
     public void testReturnTrue(){
         // : Given
