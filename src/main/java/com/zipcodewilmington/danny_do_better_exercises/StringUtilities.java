@@ -29,7 +29,7 @@ public class StringUtilities {
      */
     public static String concatenation(int firstSegment, String secondSegment){
 
-        return null;
+        return (firstSegment + "SecondSegment ");
     }
 
     /**
@@ -37,7 +37,8 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        return null;
+
+        return input.substring(0,3);
     }
 
     /**
@@ -45,7 +46,7 @@ public class StringUtilities {
      * @return the last 3 characters of `input`
      */
     public static String getSuffix(String input){
-        return null;
+        return  input.substring(input.length()-3);
     }
 
     /**
@@ -54,7 +55,8 @@ public class StringUtilities {
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-        return null;
+
+        return inputValue.equals(comparableValue);
     }
 
     /**
